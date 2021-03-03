@@ -306,18 +306,16 @@ I am highly diligent, intellectually curious and achievement oriented in my work
     <!-- /END Contact Section -->
     <section id="contact">
     <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact">
       <div class="form-group">
         <span>
           <p>
           <label>
-            <span class="section-title">Get in touch:</span> <input class="form-control mb-2" id="exampleInputEmail1" placeholder="First Name" type="text" name="name" />
-            <span class="section-title"></span> <input class="form-control mb-2" id="exampleInputEmail1" type="text" placeholder="Second Name" name="name"/>
+            <span class="section-title">Get in touch:</span> 
+            <input class="form-control mb-2" id="exampleInputEmail1" placeholder="First Name" type="text" name="name" />
+            <input class="form-control mb-2" id="exampleInputEmail1" type="text" placeholder="Second Name" name="name"/>
             <label><textarea class="form-control mb-2" id="exampleInputEmail1" name="message" rows="5" cols="60" placeholder="Thoughts?" ></textarea></label></label>
-          </label>   
-            
-        </p>
-        <p>
-          
+          </label>    
         </p>
         <p>
           <button class="btn-dark cta-btn cta-btn--resume" type="submit">Send</button>
